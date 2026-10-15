@@ -1,0 +1,6 @@
+# Sobe só o site publicado (igual ao .vercelignore); o resto da pasta é material de trabalho
+/*
+!index.html
+!midia/
+!README.md
+!.gitignore

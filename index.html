@@ -1,0 +1,1114 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfólio David Cristian</title>
+<meta name="description" content="David Cristian — estudante de Ciência da Computação (UFOP) e proprietário da Agência Wave: design gráfico, edição de vídeo, criação de sites e Meta Ads.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23141211'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-weight='700' font-size='29' fill='%23F8F4EE'%3EDC%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#EEE9E1">
+<link rel="canonical" href="https://david-cristian.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="David Cristian">
+<meta property="og:title" content="Portfólio David Cristian">
+<meta property="og:description" content="Design gráfico, edição de vídeo, criação de sites e Meta Ads — Agência Wave.">
+<meta property="og:url" content="https://david-cristian.vercel.app/">
+<meta property="og:image" content="https://david-cristian.vercel.app/midia/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Capa do portfólio de David Cristian">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,800&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap">
+<style>
+:root{
+  --bg:#EEE9E1;
+  --paper:#F8F4EE;
+  --panel:#E6D7C2;
+  --panel-deep:#D9C3A5;
+  --sand:#DCCBB6;
+  --tan:#CDAE87;
+  --caramel:#B38A5B;
+  --ink:#141211;
+  --ink-2:#2B2723;
+  --soft:#6F675D;
+  --mute:#B3AA9E;
+  --line:#D6CCBE;
+  --white:#FFFFFF;
+  --ios-blue:#3B7BD9;
+  --ios-gold:#D9A100;
+  --serif:"Playfair Display", Didot, "Bodoni 72", Georgia, serif;
+  --sans:"Inter Tight", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --script:"Homemade Apple", "Segoe Script", "Brush Script MT", cursive;
+  --mono:ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --maxw:1160px;
+  --gutter:clamp(16px, 4vw, 40px);
+  --r-xl:34px;
+  --r-lg:26px;
+  --r-md:16px;
+  --shadow-soft:0 24px 50px -34px rgba(74,52,24,.55);
+  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  color-scheme:light;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16px/1.5 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:clip}
+body::before{content:"";position:fixed;inset:0;background-image:var(--grain);opacity:.1;mix-blend-mode:multiply;pointer-events:none;z-index:100}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--caramel);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--gutter)}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- navegação ---------- */
+.dock{position:sticky;top:calc(env(safe-area-inset-top, 0px) + 12px);z-index:40;display:flex;justify-content:center;padding-inline:var(--gutter);margin-top:14px;pointer-events:none}
+.dock__in{pointer-events:auto;display:flex;align-items:center;gap:6px;max-width:100%;padding:5px;border-radius:999px;background:rgba(248,244,238,.74);backdrop-filter:blur(14px) saturate(1.2);-webkit-backdrop-filter:blur(14px) saturate(1.2);border:1px solid rgba(255,255,255,.75);box-shadow:0 12px 30px -18px rgba(60,40,20,.5),inset 0 0 0 1px rgba(160,130,95,.12)}
+.dock__brand{flex:none;padding:7px 14px;background:var(--ink);color:var(--paper);border-radius:999px;font-size:14px;line-height:1;text-decoration:none;white-space:nowrap}
+.dock__links{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;min-width:0}
+.dock__links::-webkit-scrollbar{display:none}
+.dock__links a{padding:8px 12px;border-radius:999px;text-decoration:none;font:500 14px/1 var(--sans);color:var(--ink-2);white-space:nowrap;transition:background .2s}
+.dock__links a:hover{background:rgba(205,174,135,.3)}
+
+/* nome misto: "Gab" pesado + "riel" leve + "Sobrenome" pesado */
+.nm{font-family:var(--sans);letter-spacing:-.025em;white-space:nowrap}
+.nm b{font-weight:800}
+.nm i{font-style:normal;font-weight:400;letter-spacing:-.04em}
+.nm strong{font-weight:900}
+
+/* ---------- capa ---------- */
+.cover{position:relative;padding-top:clamp(36px,6vw,80px);overflow:clip}
+.cover__stage{position:relative;max-width:1060px;margin-inline:auto;padding-inline:var(--gutter);padding-bottom:clamp(150px,19vw,240px)}
+.cover__meta{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;padding-inline:clamp(0px,5vw,64px);position:relative;z-index:3}
+.cover__tag{display:inline-flex;align-items:flex-start;gap:2px}
+.pill{display:inline-flex;align-items:center;justify-content:center;border-radius:999px;white-space:nowrap}
+.pill--ink{background:var(--ink);color:var(--paper);padding:.26em .8em .3em;font:700 clamp(14px,1.8vw,22px)/1.1 var(--serif)}
+.pill--name{font:400 clamp(14px,1.8vw,22px)/1.1 var(--sans)}
+.pill--line{border:1.6px solid var(--ink);padding:.16em .95em .24em;font:500 clamp(18px,2.5vw,32px)/1.15 var(--serif);background:rgba(248,244,238,.45)}
+.pill--ghost{border:1px solid var(--mute);color:var(--mute);padding:.28em 1em;font:italic 500 clamp(12px,1.2vw,15px)/1.1 var(--serif)}
+.mark{position:relative;flex:none;width:12px;height:12px;background:var(--ink)}
+.mark::before,.mark::after{content:"";position:absolute;left:50%;top:50%;translate:-50% -50%;background:var(--paper)}
+.mark::before{width:8px;height:2px}
+.mark::after{width:2px;height:8px}
+.cover__tag .mark{translate:0 -6px}
+
+.mega{display:flex;justify-content:center;margin:clamp(-4px,-.5vw,0px) 0 0;font:800 clamp(60px,20vw,252px)/.86 var(--serif);letter-spacing:-.045em;white-space:nowrap}
+.mega__box{position:relative;display:inline-block}
+.mega__ghost{position:absolute;inset:0;filter:blur(9px);opacity:.55;transform:translate(-3%,17%);clip-path:inset(.494em 25% 0 0 round .11em);pointer-events:none;animation:ghost 1.8s cubic-bezier(.2,.7,.1,1) both}
+.mega__word{position:relative}
+.mega__word .dim{color:#A29B92}
+.mega__glass{position:absolute;left:-4%;width:76%;top:.64em;height:.36em;border-radius:.11em;background:linear-gradient(180deg,rgba(255,255,255,.6),rgba(255,255,255,.2));backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.7);box-shadow:0 30px 50px -30px rgba(40,30,20,.45),inset 0 1px 0 rgba(255,255,255,.85);animation:sweep 1.5s cubic-bezier(.2,.7,.1,1) both}
+.mega__mark{position:absolute;right:-2.5%;top:40%}
+.mega__mark + .mega__mark{right:auto;left:23%;top:6%}
+@keyframes ghost{from{transform:translate(-16%,17%);opacity:.15;filter:blur(20px)}}
+@keyframes sweep{from{transform:translateX(-12%);opacity:.5}}
+
+.cover__roles{position:relative;z-index:3;display:flex;flex-direction:column;align-items:center;gap:10px;width:max-content;max-width:100%;margin:clamp(36px,5vw,68px) clamp(0px,10vw,150px) 0 auto}
+.cover__me{position:absolute;z-index:4;left:clamp(16px,6vw,80px);bottom:clamp(36px,5vw,70px);width:clamp(130px,17vw,220px);margin:0;padding:6px;border-radius:22px;background:var(--white);box-shadow:0 30px 50px -24px rgba(20,15,10,.6);transform:rotate(-5deg);transition:transform .45s cubic-bezier(.2,.7,.1,1);animation:drop 1.2s .2s cubic-bezier(.2,.7,.1,1) backwards}
+.cover__me:hover{transform:rotate(-1deg) scale(1.03)}
+.cover__me img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;object-position:50% 45%;border-radius:17px}
+.cover__me figcaption{position:absolute;left:50%;bottom:-14px;translate:-50% 0;display:block;white-space:nowrap;padding:.6em 1.1em;font:600 clamp(12px,1.2vw,14px)/1 var(--sans);box-shadow:0 10px 20px -10px rgba(0,0,0,.5)}
+.cover__me .mark{position:absolute;right:-6px;top:-6px}
+@keyframes drop{from{transform:translateY(-14px) rotate(-9deg);opacity:.4}}
+.roles__txt{display:inline-block;transition:opacity .35s,filter .35s,transform .35s}
+.is-swapping .roles__txt{opacity:0;filter:blur(6px);transform:translateY(4px)}
+
+.cover__wave{position:absolute;left:0;bottom:0;width:100%;height:clamp(90px,12vw,160px);display:block}
+.cover__wave path{fill:var(--ink)}
+.cover__dots{position:absolute;right:var(--gutter);bottom:clamp(20px,3vw,40px);display:flex;gap:clamp(8px,1vw,12px);padding:6px;border-radius:999px}
+.cover__dots i{width:clamp(16px,2vw,24px);aspect-ratio:1;border-radius:50%;background:var(--paper);transition:transform .3s}
+.cover__dots:hover i{transform:translateX(4px)}
+.cover__dots:focus-visible{outline-color:var(--paper)}
+
+/* ---------- sobre ---------- */
+.about{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(20px,3vw,40px);padding-top:clamp(64px,9vw,120px);align-items:start}
+.about__text{padding-bottom:clamp(64px,9vw,130px)}
+.hello{margin:0;font:900 clamp(64px,10.5vw,136px)/.88 var(--sans);letter-spacing:-.055em}
+.about__pt{margin:18px 0 0;max-width:46ch;font-size:clamp(15px,1.35vw,18px);line-height:1.5;color:var(--ink-2)}
+.hello--ghost{display:inline-block;position:relative;margin-top:clamp(36px,5vw,64px);color:var(--tan)}
+.gl{position:relative;display:inline-block}
+.gl::after{content:"";position:absolute;left:-.06em;right:-.08em;top:.58em;bottom:-.12em;border-radius:.16em;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);background:linear-gradient(180deg,rgba(255,255,255,.42),rgba(255,255,255,.14));border:1px solid rgba(255,255,255,.7);box-shadow:0 12px 24px -14px rgba(60,40,15,.45),inset 0 1px 0 rgba(255,255,255,.85);pointer-events:none}
+.about__en{margin:12px 0 0;max-width:46ch;font-size:clamp(15px,1.35vw,18px);line-height:1.5;color:var(--mute)}
+
+.portrait{position:relative;width:100%;max-width:520px;aspect-ratio:4/5;justify-self:end}
+.portrait > svg{width:100%;height:100%;display:block}
+.portrait > img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:50% 100%;filter:grayscale(1) contrast(1.04);mix-blend-mode:multiply;-webkit-mask-image:linear-gradient(to bottom,#000 62%,transparent 96%);mask-image:linear-gradient(to bottom,#000 62%,transparent 96%)}
+.portrait.has-media > svg{display:none}
+.portrait__script{position:absolute;z-index:2;font:400 clamp(15px,1.8vw,22px)/1 var(--script);color:var(--ink-2);transform:rotate(-7deg);white-space:nowrap}
+.portrait__script--a{left:-8%;top:2%}
+.portrait__script--b{left:-12%;top:60%;color:var(--mute)}
+.portrait__lens{position:absolute;z-index:2;left:70%;top:74%;width:14%;aspect-ratio:1;border-radius:50%;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.7);box-shadow:0 12px 26px -12px rgba(0,0,0,.4)}
+.portrait__note{position:absolute;z-index:2;right:4%;bottom:24%;font:italic 500 12px/1.2 var(--sans);color:var(--soft)}
+.portrait.has-media .portrait__note{display:none}
+
+.panel{position:relative;z-index:2;margin-top:clamp(-110px,-7vw,-40px);display:grid;grid-template-columns:minmax(0,1.5fr) auto minmax(0,1fr);gap:clamp(20px,3.4vw,44px);padding:clamp(22px,3.6vw,44px);border-radius:var(--r-xl);background:linear-gradient(180deg,var(--panel),#EBE0D0 85%);box-shadow:inset 0 1px 0 rgba(255,255,255,.65),var(--shadow-soft)}
+.panel h2{margin:0 0 clamp(18px,2.4vw,28px);font:800 clamp(38px,5.4vw,68px)/.95 var(--sans);letter-spacing:-.05em;text-wrap:balance}
+.skills{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 24px}
+.skill{display:flex;gap:12px;align-items:flex-start;min-width:0}
+.app{flex:none;width:clamp(44px,4.4vw,54px);aspect-ratio:1;border-radius:12px;display:grid;place-items:center;background:var(--b);color:var(--a);font:700 clamp(18px,1.9vw,23px)/1 var(--sans);letter-spacing:-.03em;box-shadow:inset 0 0 0 2px rgba(255,255,255,.08),0 8px 16px -10px rgba(0,0,0,.5)}
+.app--light{box-shadow:inset 0 0 0 1px var(--line),0 8px 16px -12px rgba(0,0,0,.35)}
+.skill strong{display:block;font:800 12.5px/1.25 var(--sans);text-transform:uppercase;letter-spacing:.02em}
+.lv{display:block;font:italic 500 13px/1.3 var(--sans);color:var(--ink-2)}
+.lv.en{color:var(--mute)}
+.meter{display:block;margin-top:7px;width:76px;height:3px;border-radius:3px;background:rgba(20,18,17,.1);overflow:hidden}
+.meter::after{content:"";display:block;height:100%;width:calc(var(--v) * 100%);background:var(--ink)}
+.panel__rail{position:relative;width:10px;border-radius:99px;background:rgba(255,255,255,.4);border:1px solid rgba(150,115,75,.22)}
+.panel__rail::after{content:"";position:absolute;left:1px;right:1px;top:10%;height:46%;border-radius:99px;background:var(--tan)}
+.panel__foot{grid-column:1 / -1;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(20px,3.4vw,44px);padding-top:clamp(22px,3vw,36px);border-top:1px solid rgba(150,115,75,.25)}
+.panel__foot h3{margin:0 0 12px;font:800 clamp(26px,3vw,36px)/1 var(--sans);letter-spacing:-.045em}
+.panel__foot h3 + h3,.panel__foot .langs__title{margin-top:26px}
+.xp__when{display:block;margin-bottom:8px;font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+.xp__role{margin:0;font:800 14.5px/1.35 var(--sans)}
+.xp__desc{margin:6px 0 0;max-width:52ch;font:400 14px/1.5 var(--sans);color:var(--ink-2)}
+.xp__desc.en{color:var(--mute)}
+.langs{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.langs li{display:grid;grid-template-columns:90px 90px auto;align-items:center;gap:12px;font:600 14px/1.2 var(--sans)}
+.langs .meter{margin:0;width:90px}
+.langs em{font:italic 500 13px/1.2 var(--sans);color:var(--ink-2)}
+.langs em .en{color:var(--mute)}
+.contacts{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.contacts a{display:flex;align-items:center;gap:12px;min-width:0;text-decoration:none;font:500 14px/1.3 var(--sans);overflow-wrap:anywhere;border-radius:8px}
+.contacts a:hover span:last-child{text-decoration:underline;text-underline-offset:3px}
+.ic{flex:none;display:grid;place-items:center;width:26px;height:26px;border-radius:7px;background:var(--ink);color:var(--paper)}
+.ic svg{width:15px;height:15px}
+
+/* ---------- capítulos ---------- */
+.chapter{padding-top:clamp(80px,11vw,150px);scroll-margin-top:70px}
+.head{position:relative;overflow:hidden;border-radius:var(--r-lg);padding:clamp(16px,2.6vw,26px) clamp(46px,8vw,100px) clamp(24px,3.6vw,40px);text-align:center;background:linear-gradient(180deg,#E9DBC7,var(--panel-deep));box-shadow:inset 0 1px 0 rgba(255,255,255,.6),inset 0 -2px 0 rgba(255,255,255,.25),var(--shadow-soft)}
+.head__dots{position:absolute;left:clamp(14px,2.4vw,28px);top:50%;translate:0 -50%;display:grid;gap:10px}
+.head__dots i{width:clamp(11px,1.3vw,15px);aspect-ratio:1;border-radius:50%;background:var(--tan);box-shadow:inset 0 0 0 3px #E6D4BC}
+.head__dots i:first-child{background:transparent;box-shadow:inset 0 0 0 1.5px var(--tan)}
+.rail{position:absolute;right:clamp(14px,2.4vw,28px);top:18px;bottom:18px;width:clamp(10px,1.1vw,14px);border-radius:99px;background:rgba(255,255,255,.4);border:1px solid rgba(150,115,75,.25)}
+.rail i{position:absolute;left:1px;right:1px;height:40%;top:calc(var(--p, 0) * 58% + 1%);border-radius:99px;background:linear-gradient(180deg,var(--tan),#C19D72);transition:top .12s linear}
+.head .pill--tag{border:1px solid var(--caramel);color:var(--caramel);padding:.22em 1em;font:500 clamp(12px,1.2vw,15px)/1.1 var(--serif);background:rgba(255,255,255,.18)}
+.head__title{position:relative;display:inline-block;margin:.12em 0 0;font:italic 800 clamp(32px,8vw,104px)/1.02 var(--serif);letter-spacing:-.035em;text-wrap:balance}
+.head__title .lens{position:absolute;left:var(--l, 20%);width:var(--w, 24%);bottom:-.14em;height:.38em;border-radius:.16em;backdrop-filter:blur(5px);-webkit-backdrop-filter:blur(5px);background:linear-gradient(180deg,rgba(255,255,255,.4),rgba(255,255,255,.14));border:1px solid rgba(255,255,255,.65);box-shadow:0 14px 26px -16px rgba(60,40,15,.5)}
+.head__sub{display:flex;justify-content:flex-end;align-items:center;gap:.5em;margin:.35em 0 0;padding-right:clamp(0px,6vw,90px);font:italic 600 clamp(15px,2vw,26px)/1.2 var(--serif);color:var(--caramel)}
+.head__sub::before{content:"";width:2.2em;height:2px;background:currentColor}
+
+.intro{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:clamp(16px,3vw,40px);align-items:center;margin-top:clamp(18px,2.4vw,28px)}
+.frame{position:relative;padding:clamp(12px,1.6vw,18px) clamp(14px,2vw,22px);border:1px solid #CFC4B5}
+.frame::before,.frame::after,.frame .hd::before,.frame .hd::after{content:"";position:absolute;width:7px;height:7px;background:var(--paper);border:1px solid #A89C8D}
+.frame::before{left:-4px;top:-4px}
+.frame::after{right:-4px;top:-4px}
+.frame .hd{position:absolute;inset:0;pointer-events:none}
+.frame .hd::before{left:-4px;bottom:-4px}
+.frame .hd::after{right:-4px;bottom:-4px}
+.frame p{margin:0;font:italic 400 clamp(14px,1.35vw,17px)/1.45 var(--sans);color:var(--ink-2)}
+.frame.en p{color:var(--mute)}
+.intro__div{width:6px;height:clamp(54px,6vw,76px);border-radius:99px;background:var(--tan)}
+.hint{display:flex;justify-content:flex-end;margin-top:8px}
+.hint button{display:inline-flex;align-items:center;gap:8px;padding:6px 8px;border:0;border-radius:8px;background:none;font:500 11px/1 var(--sans);color:var(--soft);cursor:pointer}
+.hint button:hover{background:rgba(205,174,135,.22)}
+.hint svg{width:14px;height:14px}
+.hint .cursor{width:17px;height:17px;margin-left:4px}
+
+.project{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;gap:clamp(16px,3vw,40px);align-items:start;margin-top:clamp(44px,6vw,76px)}
+.project__meta{display:block;margin-bottom:12px;font:500 11px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--soft)}
+.project__title{margin:0 0 14px;font:800 clamp(34px,5vw,62px)/.95 var(--sans);letter-spacing:-.05em;text-wrap:balance}
+.project__pt{margin:0;max-width:46ch;font:600 14.5px/1.5 var(--sans)}
+.project__en{margin:0;padding-top:clamp(0px,5.6vw,74px);max-width:46ch;font:400 14.5px/1.5 var(--sans);color:var(--mute)}
+.project__en > span{display:block;margin-bottom:8px;font:500 11px/1 var(--mono);letter-spacing:.06em}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0;padding:0;list-style:none}
+.chips li{padding:5px 12px;border:1px solid var(--ink);border-radius:99px;font:500 12.5px/1.2 var(--sans)}
+
+.more{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px 24px;margin-top:clamp(44px,6vw,72px);padding:clamp(18px,2.4vw,26px) clamp(18px,2.6vw,30px);border-radius:var(--r-lg);background:linear-gradient(180deg,#E9DBC7,var(--panel-deep));box-shadow:inset 0 1px 0 rgba(255,255,255,.6),var(--shadow-soft)}
+.more__txt{margin:0;max-width:40ch;font:italic 600 clamp(18px,2vw,24px)/1.25 var(--serif);color:var(--ink);text-wrap:balance}
+.more__txt em{color:var(--caramel)}
+.btn{display:inline-flex;align-items:center;gap:12px;padding:9px 22px 9px 9px;border-radius:999px;background:var(--ink);color:var(--paper);text-decoration:none;font:700 15px/1 var(--sans);letter-spacing:-.01em;white-space:nowrap;box-shadow:0 14px 26px -14px rgba(20,15,10,.7);transition:transform .25s,box-shadow .25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 20px 30px -16px rgba(20,15,10,.75)}
+.btn .ic{width:36px;height:36px;border-radius:50%;background:var(--paper);color:var(--ink)}
+.btn .ic svg{width:19px;height:19px}
+
+/* ---------- mídias / placeholders ---------- */
+.gallery{display:grid;gap:clamp(8px,1.2vw,14px);margin-top:clamp(22px,3vw,34px)}
+.gallery--vert{grid-template-columns:repeat(5,minmax(0,1fr))}
+
+.tile{--c1:#6B5846;--c2:#CDAE87;position:relative;overflow:hidden;isolation:isolate;aspect-ratio:16/10;border-radius:var(--r-md);background:radial-gradient(120% 90% at 22% 12%,rgba(255,255,255,.3),transparent 55%),linear-gradient(150deg,var(--c1),var(--c2));box-shadow:inset 0 0 0 1px rgba(255,255,255,.35),0 22px 40px -32px rgba(40,28,15,.75)}
+.tile::after{content:"";position:absolute;inset:0;z-index:2;background-image:var(--grain);opacity:.4;mix-blend-mode:overlay;pointer-events:none}
+.tile > img,.tile > video,.tile > iframe{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;border:0;transition:transform .7s cubic-bezier(.2,.7,.1,1)}
+.tile:hover > img,.tile:hover > video{transform:scale(1.035)}
+.tile.has-media::after,.tile.has-media .ph{display:none}
+.ph{position:absolute;inset:0;z-index:1;color:rgba(255,255,255,.92)}
+.ph__cap{position:absolute;left:12px;right:12px;bottom:10px;font:500 11px/1.25 var(--sans);opacity:.9}
+
+/* reels */
+.reel{position:relative;margin:0;aspect-ratio:9/16;border-radius:var(--r-md);overflow:hidden;isolation:isolate;background:var(--ink);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2),0 22px 40px -30px rgba(40,28,15,.8)}
+.reel video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.reel__snd{position:absolute;inset:0;z-index:2;display:block;width:100%;padding:0;border:0;border-radius:inherit;background:none;cursor:pointer}
+.reel__snd:focus-visible{outline-offset:-3px}
+.reel__chip{position:absolute;right:10px;bottom:10px;display:grid;place-items:center;width:34px;height:34px;border-radius:50%;background:rgba(20,18,17,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#fff;transition:transform .25s,background .25s}
+.reel__chip svg{width:16px;height:16px}
+.reel__snd:hover .reel__chip{transform:scale(1.08)}
+.reel__snd[aria-pressed="true"] .reel__chip{background:var(--caramel)}
+.reel__dur{position:absolute;left:10px;top:10px;z-index:1;padding:4px 8px;border-radius:99px;background:rgba(20,18,17,.45);color:#fff;font:500 10.5px/1 var(--mono);letter-spacing:.06em;pointer-events:none}
+.ia{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:clamp(8px,1.2vw,14px);align-items:center;margin-top:clamp(56px,7vw,90px)}
+
+/* posts de design */
+.client{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr) minmax(0,1fr);gap:clamp(10px,1.4vw,16px);align-items:start;margin-top:clamp(44px,6vw,76px)}
+.client + .client{margin-top:clamp(36px,5vw,60px);padding-top:clamp(36px,5vw,60px);border-top:1px solid var(--line)}
+.client__text{padding-right:clamp(0px,2.4vw,32px)}
+.client .project__title{font-size:clamp(30px,4vw,50px);overflow-wrap:break-word}
+.client__en{margin:14px 0 0;max-width:46ch;font:400 14.5px/1.5 var(--sans);color:var(--mute)}
+.client__en > span{display:block;margin-bottom:8px;font:500 11px/1 var(--mono);letter-spacing:.06em}
+.post{position:relative;display:block;width:100%;aspect-ratio:4/5;padding:0;border:0;border-radius:var(--r-md);overflow:hidden;background:var(--panel);cursor:zoom-in;box-shadow:inset 0 0 0 1px rgba(255,255,255,.35),0 22px 40px -30px rgba(40,28,15,.7)}
+.post img{width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.7,.1,1)}
+.post:hover img{transform:scale(1.035)}
+
+/* sites */
+.sites{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,1.8vw,20px);margin-top:clamp(22px,3vw,34px)}
+.browser{margin:0;overflow:hidden;border-radius:var(--r-md);background:var(--paper);box-shadow:inset 0 0 0 1px var(--line),var(--shadow-soft)}
+.browser__bar{display:flex;align-items:center;gap:6px;padding:10px 12px;border-bottom:1px solid var(--line)}
+.browser__bar i{width:10px;height:10px;border-radius:50%;background:var(--tan);opacity:.75}
+.browser__url{margin-inline:auto;padding:5px 14px;border-radius:99px;background:var(--bg);font:500 11px/1 var(--mono);color:var(--soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:60%}
+.shot{position:relative;display:block;width:100%;aspect-ratio:16/10;padding:0;border:0;overflow:hidden;background:var(--bg);cursor:zoom-in}
+.shot:focus-visible{outline-offset:-3px}
+.shot img{position:absolute;left:0;top:0;width:100%;max-width:none;height:auto;transition:transform 1.1s cubic-bezier(.3,.6,.2,1)}
+.shot:hover img,.shot:focus-visible img{transform:translateY(var(--pan, 0px));transition:transform var(--dur, 8s) cubic-bezier(.45,.05,.55,.95)}
+.shot__hint{position:absolute;right:10px;bottom:10px;z-index:2;padding:6px 11px;border-radius:99px;background:rgba(20,18,17,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:var(--paper);font:500 11px/1 var(--sans);pointer-events:none;transition:opacity .3s}
+.shot:hover .shot__hint{opacity:0}
+.shot__hint .t{display:none}
+@media (hover:none){.shot__hint .m{display:none}.shot__hint .t{display:inline}}
+.cap{margin-top:10px;font:500 12px/1.3 var(--sans);color:var(--soft)}
+.cap b{color:var(--ink);font-weight:700}
+
+/* ampliar */
+.lb{width:min(1100px,calc(100vw - 32px));max-width:none;max-height:calc(100dvh - 48px);padding:0;border:0;border-radius:18px;background:var(--paper);box-shadow:0 40px 80px -30px rgba(0,0,0,.6);overflow:hidden}
+.lb[data-kind="post"]{width:min(560px,calc(100vw - 32px))}
+.lb::backdrop{background:rgba(20,18,17,.8);backdrop-filter:blur(6px)}
+.lb__body{max-height:calc(100dvh - 48px);overflow:auto;overscroll-behavior:contain}
+.lb__body img{display:block;width:100%;height:auto}
+.lb__close{position:absolute;right:12px;top:12px;z-index:2;display:grid;place-items:center;width:40px;height:40px;border:0;border-radius:50%;background:var(--ink);color:var(--paper);font:400 24px/1 var(--sans);cursor:pointer;box-shadow:0 10px 20px -10px rgba(0,0,0,.6)}
+
+/* ---------- contato final ---------- */
+.finale{position:relative;margin-top:clamp(90px,11vw,150px);padding-bottom:clamp(28px,4vw,48px);background:linear-gradient(180deg,#D8C6AF,#E3D6C5);overflow:clip;scroll-margin-top:0}
+.finale__lip{height:clamp(44px,5vw,70px);background:var(--bg);border-radius:0 0 clamp(30px,4vw,52px) clamp(30px,4vw,52px);box-shadow:0 24px 40px -24px rgba(60,40,15,.55)}
+.call{position:relative;width:min(100%,680px);margin:clamp(44px,6vw,80px) auto 0}
+.call__card{width:min(100%,400px);margin-left:clamp(0px,3vw,30px);overflow:hidden;border-radius:22px;background:var(--white);box-shadow:0 34px 60px -30px rgba(50,35,15,.6)}
+.call__name{margin:0;padding:22px 16px 18px;text-align:center;font-size:clamp(28px,3.6vw,40px);line-height:1;color:var(--ink)}
+.call__card .tile{--c1:#2F2336;--c2:#8E5C88;aspect-ratio:1/.86;border-radius:0;box-shadow:none}
+.call__card .tile svg{position:absolute;left:50%;bottom:0;translate:-50% 0;width:62%;height:auto;fill:rgba(255,255,255,.2)}
+.call__card .tile > img{object-position:50% 50%}
+.call__actions{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid #E7E2DB}
+.call__actions a{padding:17px 12px;text-align:center;text-decoration:none;font:500 16px/1 var(--sans);color:var(--ios-blue)}
+.call__actions a + a{border-left:1px solid #E7E2DB}
+.call__actions a:hover{background:#F6F4F0}
+.note{position:absolute;right:0;top:34%;width:min(46%,300px);padding:10px 16px 18px;border-radius:18px;background:var(--white);box-shadow:0 30px 50px -24px rgba(50,35,15,.6);transform:rotate(1.5deg)}
+.note__status{display:flex;justify-content:space-between;align-items:center;font:600 11px/1 var(--sans)}
+.note__status svg{width:40px;height:10px}
+.note__nav{display:flex;justify-content:space-between;margin:12px 0 12px;font:500 12px/1 var(--sans);color:var(--ios-gold)}
+.note__txt{margin:0;font:500 clamp(16px,1.8vw,19px)/1.25 var(--sans);letter-spacing:-.01em}
+.note__txt b{font-style:italic;font-weight:800}
+.note__txt a{text-decoration:none}
+.note__txt a:hover{text-decoration:underline;text-underline-offset:3px}
+.cbar{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;max-width:920px;margin:clamp(44px,6vw,72px) auto 0;padding:14px clamp(12px,2vw,24px);border-radius:24px;background:rgba(248,244,238,.6);box-shadow:inset 0 0 0 1px rgba(255,255,255,.65),0 18px 40px -30px rgba(60,40,15,.5)}
+.cbar a{display:grid;justify-items:center;gap:8px;padding:8px 6px;border-radius:14px;text-align:center;text-decoration:none;font:500 clamp(12px,1.3vw,15px)/1.2 var(--sans);overflow-wrap:anywhere}
+.cbar a:hover{background:rgba(255,255,255,.55)}
+.cbar .ic{width:32px;height:32px;border-radius:50%}
+.cbar .ic svg{width:16px;height:16px}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;max-width:920px;margin:28px auto 0;font:500 12px/1.4 var(--sans);color:var(--soft)}
+
+/* só português */
+.pt-only .en{display:none}
+.pt-only .intro{grid-template-columns:1fr}
+.pt-only .intro__div{display:none}
+.pt-only .project{grid-template-columns:minmax(0,1fr) auto}
+
+/* variações de bloco (depois do .pt-only para prevalecer) */
+.ia .project{grid-column:1 / 4;grid-template-columns:1fr;margin-top:0;padding-right:clamp(0px,3vw,40px)}
+.ia .project__en{padding-top:0}
+.project.project--side{grid-template-columns:minmax(0,1fr) minmax(0,1.7fr);align-items:center}
+.project--side .project__en{padding-top:0;margin-top:14px}
+
+/* ---------- responsivo ---------- */
+@media (max-width:900px){
+  .about{grid-template-columns:1fr}
+  .about__text{padding-bottom:0}
+  .portrait{justify-self:center;max-width:400px}
+  .panel{grid-template-columns:1fr;margin-top:-50px}
+  .panel__rail{display:none}
+  .project,.pt-only .project,.project.project--side{grid-template-columns:1fr}
+  .project__en{padding-top:0}
+  .client{grid-template-columns:1fr 1fr}
+  .client__text{grid-column:1 / -1;padding-right:0}
+  .ia{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .ia .project{grid-column:1 / -1;padding-right:0}
+  .ia .reel{grid-column:span 2}
+}
+@media (max-width:720px){
+  .cover__roles{margin-inline:auto}
+  .cover__me{position:relative;left:auto;bottom:auto;display:block;margin:30px auto 0;width:min(46vw,180px)}
+  .intro{grid-template-columns:1fr}
+  .intro__div{width:60px;height:5px;justify-self:center}
+  .gallery--vert{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:60%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px;scrollbar-width:thin}
+  .gallery--vert > .reel{scroll-snap-align:start}
+  .sites{grid-template-columns:1fr}
+  .note{position:relative;right:auto;top:auto;width:min(88%,300px);margin:-46px 0 0 auto}
+  .call__card{margin-left:0}
+}
+@media (max-width:560px){
+  .dock__brand{display:none}
+  .skills{grid-template-columns:1fr}
+  .panel__foot{grid-template-columns:1fr}
+  .portrait__script--a{left:2%}
+  .portrait__script--b{left:0}
+  .cbar{grid-template-columns:1fr}
+  .cbar a{display:flex;align-items:center;gap:12px;text-align:left}
+  .head__sub{justify-content:center;padding-right:0}
+  .head__dots{display:none}
+  .head{padding-inline:36px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .shot:hover img,.shot:focus-visible img{transform:none}
+}
+
+.identity{margin-top:clamp(56px,7vw,90px)}
+.identity__grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(12px,1.8vw,20px);margin-top:24px}
+.identity__logo{display:grid;place-items:center;margin:0;min-height:280px;padding:36px;border-radius:var(--r-md);background:#F7F5EF}
+.identity__logo img{width:100%;max-width:300px;height:220px;object-fit:contain}
+.identity__logo--dark{background:#242824}
+.identity__palette{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));margin:16px 0 28px;overflow:hidden;border-radius:var(--r-md)}
+.identity__palette div{min-height:100px;padding:16px 8px;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;font:500 11px/1.3 var(--sans);background:var(--sw);color:var(--fg,#242824)}
+.identity__palette code{font-size:10px}
+.identity__mock{margin:0}
+.identity__mock .post{aspect-ratio:3/2}
+.identity__mock .post img{object-fit:contain;background:#F7F5EF}
+@media(max-width:560px){.identity__grid{grid-template-columns:1fr}.identity__logo{min-height:240px;padding:24px}.identity__palette{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+
+<!-- ícones -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path fill="currentColor" d="M6.6 10.8a15.2 15.2 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round" d="M3.5 5.5h17v13h-17z M3.5 6.5l8.5 6.5 8.5-6.5"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="3.8"/></g><circle cx="17.2" cy="6.8" r="1.3" fill="currentColor"/></symbol>
+  <symbol id="i-be" viewBox="0 0 24 24"><text x="12" y="16.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="12.5" fill="currentColor">Bē</text></symbol>
+  <symbol id="i-github" viewBox="0 0 24 24"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.86c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.64-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.6 9.6 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.69-4.57 4.94.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></symbol>
+  <symbol id="i-in" viewBox="0 0 24 24"><text x="12" y="17" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="14" fill="currentColor">in</text></symbol>
+  <symbol id="i-vimeo" viewBox="0 0 24 24"><text x="12" y="17.4" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-weight="700" font-size="17" fill="currentColor">v</text></symbol>
+  <symbol id="i-translate" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h8M8 3v2M10 5c-.6 3.6-2.6 6.4-6 8M6 9c1 1.8 2.6 3.2 4.6 4"/><path d="M12.5 21l4-10 4 10M14 17.5h5"/></g></symbol>
+  <symbol id="i-cursor" viewBox="0 0 24 24"><path d="M5 2.5v17l4.6-4.1 3 6.6 2.9-1.3-3-6.5 6.2-.2z" fill="#fff" stroke="#141211" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  <symbol id="i-snd-off" viewBox="0 0 24 24"><path fill="currentColor" d="M3 9h4l5-4v14l-5-4H3z"/><path d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-snd-on" viewBox="0 0 24 24"><path fill="currentColor" d="M3 9h4l5-4v14l-5-4H3z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-person" viewBox="0 0 200 170"><circle cx="100" cy="62" r="42"/><path d="M14 170c4-44 40-66 86-66s82 22 86 66z"/></symbol>
+</svg>
+
+<!-- ================= NAVEGAÇÃO ================= -->
+<nav class="dock" aria-label="Seções">
+  <div class="dock__in">
+    <a class="dock__brand" href="#topo"><span class="nm js-name"><b>Dav</b><i>id</i> <strong>Cristian</strong></span></a>
+    <div class="dock__links">
+      <a href="#sobre">Sobre</a>
+      <a href="#video">Vídeo</a>
+      <a href="#design">Design</a>
+      <a href="#sites">Sites</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ================= CAPA ================= -->
+<header class="cover" id="topo">
+  <div class="cover__stage">
+    <div class="cover__meta">
+      <span class="cover__tag"><span class="mark" aria-hidden="true"></span><span class="pill pill--ink js-year">2026</span></span>
+      <span class="pill pill--ink pill--name"><span class="nm js-name"><b>Dav</b><i>id</i> <strong>Cristian</strong></span></span>
+    </div>
+
+    <h1 class="mega">
+      <span class="mega__box">
+        <span class="mega__ghost" aria-hidden="true">Portfolio</span>
+        <span class="mega__word">Port<span class="dim">fo</span>lio</span>
+        <span class="mega__glass" aria-hidden="true"></span>
+        <span class="mark mega__mark" aria-hidden="true"></span>
+        <span class="mark mega__mark" aria-hidden="true"></span>
+      </span>
+    </h1>
+
+    <figure class="cover__me">
+      <img src="midia/foto-capa.jpg" alt="Foto de David Cristian" width="800" height="800">
+      <figcaption class="pill pill--ink">Oi, eu sou o <span class="js-first">David</span>!</figcaption>
+      <span class="mark" aria-hidden="true"></span>
+    </figure>
+
+    <div class="cover__roles" aria-live="polite">
+      <span class="pill pill--line"><span class="roles__txt" data-role="pt">Edição de Vídeo</span></span>
+      <span class="pill pill--ghost"><span class="roles__txt" data-role="en">Video Editor</span></span>
+    </div>
+  </div>
+
+  <svg class="cover__wave" viewBox="0 0 1440 160" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 70 C 220 18, 430 20, 640 62 S 1010 128, 1200 78 S 1390 34, 1440 44 L1440 160 L0 160 Z"/>
+  </svg>
+  <a class="cover__dots" href="#sobre" aria-label="Ver o portfólio"><i></i><i></i><i></i></a>
+</header>
+
+<main>
+
+<!-- ================= SOBRE ================= -->
+<section class="wrap" id="sobre" style="scroll-margin-top:70px">
+  <div class="about">
+    <div class="about__text">
+      <h2 class="hello">Olá!</h2>
+      <p class="about__pt">Sou David Cristian — estudante de Ciência da Computação na UFOP e proprietário da Agência Wave desde 2023. Atendo empresas com design gráfico, edição de vídeo, criação de sites e anúncios no Meta Ads, cuidando de cada projeto do primeiro contato à entrega.</p>
+
+      <p class="hello hello--ghost en" aria-hidden="true">Hel<span class="gl">lo!</span></p>
+      <p class="about__en en" lang="en">I'm David Cristian — a Computer Science student at UFOP and owner of Agência Wave since 2023. I serve businesses with graphic design, video editing, websites and Meta Ads campaigns, taking care of every project from first contact to delivery.</p>
+    </div>
+
+    <!-- Retrato do "Sobre mim": troque o arquivo em data-src se quiser outro desenho -->
+    <figure class="portrait" data-src="midia/imagem-desenhada.webp" data-alt="Retrato desenhado de David Cristian" style="margin:0">
+      <svg viewBox="0 0 400 500" role="img" aria-label="Espaço para sua foto">
+        <defs>
+          <pattern id="hatchA" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(38)"><line x1="0" y1="0" x2="0" y2="5" stroke="#3A332C" stroke-width="1.1"/></pattern>
+          <pattern id="hatchB" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(-48)"><line x1="0" y1="0" x2="0" y2="4" stroke="#3A332C" stroke-width=".8"/></pattern>
+          <linearGradient id="fadeG" x1="0" y1="0" x2="0" y2="1"><stop offset=".55" stop-color="#fff"/><stop offset=".97" stop-color="#fff" stop-opacity="0"/></linearGradient>
+          <mask id="fadeM"><rect width="400" height="500" fill="url(#fadeG)"/></mask>
+        </defs>
+        <g mask="url(#fadeM)">
+          <path d="M18 500 C 30 418 104 382 176 366 C 190 384 212 384 226 366 C 300 382 372 420 384 500 Z" fill="url(#hatchA)" opacity=".38"/>
+          <path d="M172 300 L170 368 C 190 390 212 390 232 368 L230 300 Z" fill="url(#hatchB)" opacity=".5"/>
+          <ellipse cx="201" cy="222" rx="86" ry="106" fill="url(#hatchA)" opacity=".28"/>
+          <ellipse cx="228" cy="236" rx="52" ry="82" fill="url(#hatchB)" opacity=".35"/>
+          <path d="M108 206 C 92 120 160 70 212 82 C 282 74 324 140 296 214 C 288 160 256 132 206 134 C 160 134 126 160 108 206 Z" fill="url(#hatchB)" opacity=".7"/>
+          <g fill="none" stroke="#2B2723" stroke-linecap="round" opacity=".55">
+            <path d="M116 214 C 112 290 150 330 200 330 C 252 330 290 290 288 214" stroke-width="1.6"/>
+            <path d="M108 206 C 92 120 160 70 212 82 C 282 74 324 140 296 214" stroke-width="1.8"/>
+            <path d="M176 366 C 190 384 212 384 226 366" stroke-width="1.4"/>
+            <path d="M18 500 C 30 418 104 382 176 366 M226 366 C 300 382 372 420 384 500" stroke-width="1.4"/>
+          </g>
+        </g>
+      </svg>
+      <span class="portrait__script portrait__script--a" aria-hidden="true">Sobre mim</span>
+      <span class="portrait__script portrait__script--b en" aria-hidden="true">about me</span>
+      <span class="portrait__lens" aria-hidden="true"></span>
+      <figcaption class="portrait__note">sua foto aqui</figcaption>
+    </figure>
+  </div>
+
+  <div class="panel">
+    <div>
+      <h2>Hard Sk<span class="gl">ills</span></h2>
+      <!-- Níveis do currículo: --v vai de 0 a 1 -->
+      <ul class="skills">
+        <li class="skill"><span class="app" style="--a:#FF9A00;--b:#2E1600" aria-hidden="true">Dg</span><div><strong>Design Gráfico</strong><span class="lv">Avançado</span><span class="lv en" lang="en">Advanced</span><span class="meter" style="--v:.92"></span></div></li>
+        <li class="skill"><span class="app" style="--a:#9999FF;--b:#00005B" aria-hidden="true">Ed</span><div><strong>Edição de Vídeo</strong><span class="lv">Avançado</span><span class="lv en" lang="en">Advanced</span><span class="meter" style="--v:.9"></span></div></li>
+        <li class="skill"><span class="app" style="--a:#F0DB4F;--b:#1F2A44;font-size:17px" aria-hidden="true">&lt;/&gt;</span><div><strong>Criação de Sites</strong><span class="lv">Avançado</span><span class="lv en" lang="en">Advanced</span><span class="meter" style="--v:.85"></span></div></li>
+        <li class="skill"><span class="app" style="--a:#FFFFFF;--b:#0866FF;font-size:16px" aria-hidden="true">Ads</span><div><strong>Meta Ads</strong><span class="lv">Intermediário</span><span class="lv en" lang="en">Intermediate</span><span class="meter" style="--v:.72"></span></div></li>
+        <li class="skill"><span class="app" style="--a:#7FE3C4;--b:#0F2E2A" aria-hidden="true">{ }</span><div><strong>Programação</strong><span class="lv">Avançado</span><span class="lv en" lang="en">Advanced</span><span class="meter" style="--v:.88"></span></div></li>
+        <li class="skill"><span class="app" style="--a:#EDE6DA;--b:#2B2830" aria-hidden="true">PC</span><div><strong>Informática</strong><span class="lv">Avançado</span><span class="lv en" lang="en">Advanced</span><span class="meter" style="--v:.9"></span></div></li>
+      </ul>
+    </div>
+
+    <span class="panel__rail" aria-hidden="true"></span>
+
+    <div>
+      <h2>Contato</h2>
+      <ul class="contacts">
+        <li><a data-link="github" href="https://github.com/davidcrp"><span class="ic"><svg><use href="#i-github"/></svg></span><span data-c="github">github.com/davidcrp</span></a></li>
+        <li><a data-link="whatsapp" href="#"><span class="ic"><svg><use href="#i-phone"/></svg></span><span data-c="phone">(31) 97145-6495</span></a></li>
+        <li><a data-link="email" href="#"><span class="ic"><svg><use href="#i-mail"/></svg></span><span data-c="email">davidcristianpr147@gmail.com</span></a></li>
+        <li><a data-link="instagram" href="#"><span class="ic"><svg><use href="#i-insta"/></svg></span><span data-c="instagram">@david_cristianpr</span></a></li>
+        <li><a data-link="vimeo" href="#"><span class="ic"><svg><use href="#i-vimeo"/></svg></span><span data-c="vimeo">vimeo.com/seuperfil</span></a></li>
+        <li><a data-link="linkedin" href="#"><span class="ic"><svg><use href="#i-in"/></svg></span><span data-c="linkedin">linkedin.com/in/seuperfil</span></a></li>
+        <li><a data-link="behance" href="#"><span class="ic"><svg><use href="#i-be"/></svg></span><span data-c="behance">behance.net/wavemdigital</span></a></li>
+      </ul>
+    </div>
+
+    <div class="panel__foot">
+      <div>
+        <h3>Experiência</h3>
+        <span class="xp__when">2023 — hoje</span>
+        <p class="xp__role">Proprietário · Agência Wave</p>
+        <p class="xp__desc">Agência própria de serviços digitais atendendo empresas: design gráfico, edição de vídeo para conteúdo e campanhas, criação de sites e gestão de anúncios no Meta Ads — além de prospecção, relacionamento com clientes, orçamentos e prazos.</p>
+        <p class="xp__desc en" lang="en">My own digital services agency serving businesses: graphic design, video editing for content and campaigns, websites and Meta Ads management — plus prospecting, client relationships, quotes and deadlines.</p>
+      </div>
+      <div>
+        <h3>Educação</h3>
+        <span class="xp__when">2024 — atual</span>
+        <p class="xp__role">Bacharelado em Ciência da Computação · UFOP</p>
+        <p class="xp__desc">Universidade Federal de Ouro Preto.</p>
+        <p class="xp__desc en" lang="en">Bachelor's degree in Computer Science — Federal University of Ouro Preto.</p>
+        <h3 class="langs__title">Idiomas</h3>
+        <ul class="langs">
+          <li><span>Português</span><span class="meter" style="--v:1"></span><em>nativo <span class="en" lang="en">· native</span></em></li>
+          <li><span>Inglês</span><span class="meter" style="--v:.25"></span><em>básico <span class="en" lang="en">· basic</span></em></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VÍDEOS VERTICAIS ================= -->
+<!-- Vídeos ficam em midia/videos/. Para trocar, mude o src do <source> e o poster (capa). -->
+<section class="chapter wrap" id="video">
+  <div class="head">
+    <div class="head__dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    <span class="pill pill--tag">Edição de Vídeo</span><br>
+    <h2 class="head__title">Vídeos Verticais<span class="lens" style="--l:64%;--w:26%" aria-hidden="true"></span></h2>
+    <p class="head__sub" lang="en">vertical videos</p>
+    <span class="rail" data-rail aria-hidden="true"><i></i></span>
+  </div>
+  <div class="intro">
+    <div class="frame"><p>Esta seção reúne uma curadoria de projetos de edição de vídeo em formato vertical, desenvolvidos para diferentes objetivos e plataformas.</p><i class="hd"></i></div>
+    <span class="intro__div en" aria-hidden="true"></span>
+    <div class="frame en" lang="en"><p>This section features a curated selection of vertical video editing projects developed for different goals and platforms.</p><i class="hd"></i></div>
+  </div>
+  <div class="hint"><button type="button" data-translate aria-pressed="false"><svg><use href="#i-translate"/></svg><span>Traduzir para o português</span><svg class="cursor" aria-hidden="true"><use href="#i-cursor"/></svg></button></div>
+
+  <article class="project">
+    <div>
+      <span class="project__meta">Institucional · Reels · Shorts</span>
+      <h3 class="project__title">Redes Sociais</h3>
+      <p class="project__pt">Vídeos para redes sociais com cortes no ritmo da fala e legendas dinâmicas palavra por palavra. Conteúdos de marca, institucionais e de serviços, feitos para prender a atenção logo nos primeiros segundos.</p>
+    </div>
+    <p class="project__en en" lang="en"><span>en/</span>Social media videos with cuts that follow the rhythm of speech and word-by-word dynamic captions. Brand, institutional and service content made to hold attention from the very first seconds.</p>
+  </article>
+  <div class="gallery gallery--vert">
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/inst-1.jpg"><source src="midia/videos/inst-1.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:35</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: reel institucional 1"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/inst-2.jpg"><source src="midia/videos/inst-2.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:50</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: reel institucional 2"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/inst-3.jpg"><source src="midia/videos/inst-3.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:54</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: reel institucional 3"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/inst-4.jpg"><source src="midia/videos/inst-4.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:23</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: reel institucional 4"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/inst-5.jpg"><source src="midia/videos/inst-5.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:24</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: reel institucional 5"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+  </div>
+
+  <div class="ia">
+    <article class="project">
+      <div>
+        <span class="project__meta">Inteligência artificial · UGC</span>
+        <h3 class="project__title">Criados com IA</h3>
+        <p class="project__pt">Anúncios em formato UGC produzidos com inteligência artificial: apresentadora, cenário e fala gerados por IA, com edição, legendas e ritmo finalizados por mim. Usados na divulgação de materiais pedagógicos.</p>
+      </div>
+      <p class="project__en en" lang="en"><span>en/</span>UGC-style ads produced with artificial intelligence: presenter, setting and voice generated by AI, with editing, captions and pacing finished by me. Used to promote educational materials.</p>
+    </article>
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/ia-1.jpg"><source src="midia/videos/ia-1.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:23</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: anúncio criado com IA 1"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+    <figure class="reel">
+      <video muted loop playsinline preload="none" poster="midia/videos/ia-2.jpg"><source src="midia/videos/ia-2.mp4" type="video/mp4"></video>
+      <span class="reel__dur">0:26</span>
+      <button class="reel__snd" type="button" aria-pressed="false" aria-label="Ativar som: anúncio criado com IA 2"><span class="reel__chip"><svg aria-hidden="true"><use href="#i-snd-off"/></svg></span></button>
+    </figure>
+  </div>
+</section>
+
+<!-- ================= DESIGN ================= -->
+<section class="chapter wrap" id="design">
+  <div class="head">
+    <div class="head__dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    <span class="pill pill--tag">Design Gráfico</span><br>
+    <h2 class="head__title">Criativos &amp; Posts<span class="lens" style="--l:30%;--w:24%" aria-hidden="true"></span></h2>
+    <p class="head__sub" lang="en">social media design</p>
+    <span class="rail" data-rail aria-hidden="true"><i></i></span>
+  </div>
+  <div class="intro">
+    <div class="frame"><p>Esta seção reúne posts e criativos para redes sociais de marcas de diferentes segmentos — indústria, construção, tecnologia e varejo automotivo.</p><i class="hd"></i></div>
+    <span class="intro__div en" aria-hidden="true"></span>
+    <div class="frame en" lang="en"><p>This section brings together social media posts and ad creatives for brands across different industries — manufacturing, construction, technology and automotive retail.</p><i class="hd"></i></div>
+  </div>
+  <div class="hint"><button type="button" data-translate aria-pressed="false"><svg><use href="#i-translate"/></svg><span>Traduzir para o português</span><svg class="cursor" aria-hidden="true"><use href="#i-cursor"/></svg></button></div>
+
+  <article class="client">
+    <div class="client__text">
+      <span class="project__meta">Minha agência · Conteúdo próprio</span>
+      <h3 class="project__title">Wave Digital</h3>
+      <p class="project__pt">Posts da minha própria agência: fotografia em preto e branco, tipografia que muda de peso para destacar a ideia e uma chamada em forma de pílula. A linha visual é escura e direta, do labirinto ao tabuleiro de xadrez.</p>
+      <p class="client__en en" lang="en"><span>en/</span>Posts for my own agency: black-and-white photography, typography that shifts weight to highlight the idea and a pill-shaped call to action. The visual line is dark and direct, from the maze to the chessboard.</p>
+    </div>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post da Wave Digital: Postar sem estratégia é estar perdido"><img src="midia/design/wave-estrategia.webp" alt="Post da Wave Digital: Postar sem estratégia é estar perdido" width="546" height="689" loading="lazy" decoding="async"></button>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post da Wave Digital: Quem se posiciona incomoda, quem não se posiciona desaparece"><img src="midia/design/wave-posicionamento.webp" alt="Post da Wave Digital: Quem se posiciona incomoda, quem não se posiciona desaparece" width="548" height="689" loading="lazy" decoding="async"></button>
+  </article>
+  <article class="client">
+    <div class="client__text">
+      <span class="project__meta">Indústria · Institucional</span>
+      <h3 class="project__title">Usiromi</h3>
+      <p class="project__pt">Posts institucionais que traduzem os valores da empresa — ética, transparência e missão — em ilustrações e blocos de cor com o vermelho e o azul da marca.</p>
+      <p class="client__en en" lang="en"><span>en/</span>Institutional posts that turn the company's values — ethics, transparency and mission — into illustrations and color blocks in the brand's red and blue.</p>
+    </div>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post da Usiromi: Ética e transparência"><img src="midia/design/usiromi-etica.webp" alt="Post da Usiromi: Ética e transparência" width="864" height="1080" loading="lazy" decoding="async"></button>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post da Usiromi: Nossa missão"><img src="midia/design/usiromi-missao.webp" alt="Post da Usiromi: Nossa missão" width="864" height="1080" loading="lazy" decoding="async"></button>
+  </article>
+  <article class="client">
+    <div class="client__text">
+      <span class="project__meta">Construção · Terraplanagem</span>
+      <h3 class="project__title">Contrato Terraplanagem</h3>
+      <p class="project__pt">Posts para a Contrato Terraplanagem: uma data comemorativa com tipografia elegante em tons de laranja e um conteúdo técnico sobre corte e aterro, com a fotografia da obra em destaque.</p>
+      <p class="client__en en" lang="en"><span>en/</span>Posts for Contrato Terraplanagem: a holiday greeting with elegant typography in shades of orange and a technical post about cut and fill, with job-site photography front and center.</p>
+    </div>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post da Contrato Terraplanagem: Feliz Natal"><img src="midia/design/contrato-natal.webp" alt="Post da Contrato Terraplanagem: Feliz Natal" width="585" height="730" loading="lazy" decoding="async"></button>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post da Contrato Terraplanagem: Corte e aterro, nivelando o terreno para o sucesso da obra"><img src="midia/design/contrato-corte-aterro.webp" alt="Post da Contrato Terraplanagem: Corte e aterro, nivelando o terreno para o sucesso da obra" width="583" height="732" loading="lazy" decoding="async"></button>
+  </article>
+  <article class="client">
+    <div class="client__text">
+      <span class="project__meta">App · Tecnologia</span>
+      <h3 class="project__title">NutriVision</h3>
+      <p class="project__pt">Carrossel para o NutriVision, app de alimentação inteligente que identifica alimentos por foto. Cards, fotografia de comida e o verde da marca explicam o produto em poucos segundos.</p>
+      <p class="client__en en" lang="en"><span>en/</span>Carousel for NutriVision, a smart nutrition app that identifies food from a photo. Cards, food photography and the brand's green explain the product in seconds.</p>
+    </div>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post do NutriVision: Do clique ao controle da sua dieta"><img src="midia/design/nutrivision-1.webp" alt="Post do NutriVision: Do clique ao controle da sua dieta" width="864" height="1080" loading="lazy" decoding="async"></button>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Post do NutriVision: Acompanhe sua evolução com dados reais"><img src="midia/design/nutrivision-2.webp" alt="Post do NutriVision: Acompanhe sua evolução com dados reais" width="864" height="1080" loading="lazy" decoding="async"></button>
+  </article>
+  <article class="client">
+    <div class="client__text">
+      <span class="project__meta">Varejo automotivo · Anúncios</span>
+      <h3 class="project__title">Gil Prado Automóveis</h3>
+      <p class="project__pt">Criativos para a Gil Prado Automóveis: conteúdo educativo sobre compra de carro usado e um anúncio no formato de notificação do celular, feito para parar a rolagem.</p>
+      <p class="client__en en" lang="en"><span>en/</span>Ad creatives for Gil Prado Automóveis: educational content about buying a used car and an ad styled as a phone notification, designed to stop the scroll.</p>
+    </div>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Criativo da Gil Prado Automóveis: 3 erros ao comprar carro usado"><img src="midia/design/gilprado-erros.webp" alt="Criativo da Gil Prado Automóveis: 3 erros ao comprar carro usado" width="696" height="871" loading="lazy" decoding="async"></button>
+    <button class="post" type="button" data-zoom aria-label="Ampliar: Criativo da Gil Prado Automóveis em formato de notificação do celular"><img src="midia/design/gilprado-notificacao.webp" alt="Criativo da Gil Prado Automóveis em formato de notificação do celular" width="694" height="871" loading="lazy" decoding="async"></button>
+  </article>
+
+  <article class="identity" id="identidade-visual">
+    <span class="project__meta">Identidade visual · Chalés e casas pré-fabricadas</span>
+    <h3 class="project__title">Alvora</h3>
+    <p class="project__pt">Uma identidade que conecta arquitetura e natureza. O símbolo combina a estrutura de um chalé com o sol, acompanhado de uma paleta de verde, terracota e tons naturais. O sistema inclui versões da marca e aplicações para comunicação e materiais da empresa.</p>
+    <p class="client__en en" lang="en"><span>en/</span>A visual identity connecting architecture and nature. The symbol combines a cabin structure with the sun, complemented by green, terracotta and natural tones. The system includes logo variations and applications for brand communications and company materials.</p>
+    <div class="identity__grid">
+      <figure class="identity__logo"><img src="midia/identidade/alvora-vertical-principal.svg" alt="Marca Alvora: chalé, sol e assinatura" loading="lazy"></figure>
+      <figure class="identity__logo identity__logo--dark"><img src="midia/identidade/alvora-horizontal-creme-terracota.svg" alt="Versão horizontal da marca Alvora em creme com sol terracota sobre fundo verde" loading="lazy"></figure>
+    </div>
+    <div class="identity__palette" aria-label="Paleta de cores Alvora">
+      <div style="--sw:#242824;--fg:#F7F5EF">Verde Alvora<code>#242824</code></div>
+      <div style="--sw:#D78C59">Sol terracota<code>#D78C59</code></div>
+      <div style="--sw:#F7F5EF">Creme<code>#F7F5EF</code></div>
+      <div style="--sw:#E9E3D7">Areia<code>#E9E3D7</code></div>
+      <div style="--sw:#DFE8DC">Sálvia<code>#DFE8DC</code></div>
+    </div>
+    <div class="identity__grid">
+      <figure class="identity__mock"><button class="post" type="button" data-zoom aria-label="Ampliar: Aplicação conceitual Alvora em uniforme, capacete e pasta"><img src="midia/identidade/alvora-uniforme-capacete-pasta.webp" alt="Aplicação conceitual Alvora em uniforme, capacete e pasta" width="1400" height="933" loading="lazy" decoding="async"></button><figcaption class="cap">Aplicação conceitual Alvora em uniforme, capacete e pasta</figcaption></figure>
+      <figure class="identity__mock"><button class="post" type="button" data-zoom aria-label="Ampliar: Aplicação conceitual da marca Alvora em veículo"><img src="midia/identidade/alvora-veiculo.webp" alt="Aplicação conceitual da marca Alvora em veículo" width="1400" height="933" loading="lazy" decoding="async"></button><figcaption class="cap">Aplicação conceitual da marca Alvora em veículo</figcaption></figure>
+    </div>
+    <p class="cap">Mockups ilustrativos gerados com IA para apresentar as aplicações da identidade.</p>
+  </article>
+
+  <div class="more">
+    <p class="more__txt">Mais criativos, posts e identidades visuais no <em>Behance</em> da Agência Wave.</p>
+    <a class="btn" data-link="behance" href="https://www.behance.net/wavemdigital"><span class="ic"><svg aria-hidden="true"><use href="#i-be"/></svg></span>Ver mais no Behance <span aria-hidden="true">↗</span></a>
+  </div>
+</section>
+
+<!-- ================= SITES ================= -->
+<section class="chapter wrap" id="sites">
+  <div class="head">
+    <div class="head__dots" aria-hidden="true"><i></i><i></i><i></i></div>
+    <span class="pill pill--tag">Criação de Sites</span><br>
+    <h2 class="head__title">Sites &amp; Landing Pages<span class="lens" style="--l:44%;--w:22%" aria-hidden="true"></span></h2>
+    <p class="head__sub" lang="en">web design</p>
+    <span class="rail" data-rail aria-hidden="true"><i></i></span>
+  </div>
+  <div class="intro">
+    <div class="frame"><p>Esta seção reúne sites e landing pages desenvolvidos do layout à publicação — responsivos, rápidos e pensados para transformar visitantes em clientes.</p><i class="hd"></i></div>
+    <span class="intro__div en" aria-hidden="true"></span>
+    <div class="frame en" lang="en"><p>This section features websites and landing pages built from layout to launch — responsive, fast and designed to turn visitors into clients.</p><i class="hd"></i></div>
+  </div>
+  <div class="hint"><button type="button" data-translate aria-pressed="false"><svg><use href="#i-translate"/></svg><span>Traduzir para o português</span><svg class="cursor" aria-hidden="true"><use href="#i-cursor"/></svg></button></div>
+
+  <article class="project project--side">
+    <div>
+      <span class="project__meta">Minha agência · Site próprio</span>
+      <h3 class="project__title">Wave Digital</h3>
+      <p class="project__pt">O site da minha agência: ilustração em pixel art no topo, título que alterna entre os segmentos atendidos, projetos entregues em destaque e o passo a passo do briefing ao lançamento — com SEO e contato direto pelo WhatsApp.</p>
+      <p class="project__en en" lang="en"><span>en/</span>My agency's own website: a pixel-art hero, a headline that cycles through the industries we serve, delivered projects front and center and a step-by-step process from briefing to launch — with SEO and direct WhatsApp contact.</p>
+      <ul class="chips" aria-label="Destaques"><li>Pixel art</li><li>SEO</li><li>Responsivo</li></ul>
+    </div>
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">Wave Digital</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: Wave Digital">
+          <img src="midia/sites/wave-digital.webp" alt="Página inicial completa do site da Wave Digital" width="1280" height="6053" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>Wave Digital</b> — sites profissionais para empresas</p>
+    </div>
+  </article>
+
+  <article class="project">
+    <div>
+      <span class="project__meta">WordPress · Elementor</span>
+      <h3 class="project__title">Sites Institucionais</h3>
+      <p class="project__pt">Sites para empresas do setor industrial: apresentação da marca, catálogo de produtos e serviços e contato direto — com a identidade visual de cada cliente aplicada em todas as páginas.</p>
+      <ul class="chips" aria-label="Ferramentas"><li>WordPress</li><li>Elementor</li><li>Responsivo</li></ul>
+    </div>
+    <p class="project__en en" lang="en"><span>en/</span>Websites for industrial companies: brand presentation, product and service catalog and direct contact — with each client's visual identity applied across every page.</p>
+  </article>
+  <div class="sites">
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">Dinâmica EPI's</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: Dinâmica EPI's">
+          <img src="midia/sites/dinamica.webp" alt="Página inicial completa do site da Dinâmica EPI's" width="1280" height="4741" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>Dinâmica EPI's</b> — EPIs, ferramentas, abrasivos e soldas</p>
+    </div>
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">Tecweld</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: Tecweld">
+          <img src="midia/sites/tecweld.webp" alt="Página inicial completa do site da Tecweld" width="1280" height="4186" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>Tecweld</b> — indústria e comércio, 15 anos</p>
+    </div>
+  </div>
+
+  <article class="project project--side">
+    <div>
+      <span class="project__meta">Chalés · Site institucional</span>
+      <h3 class="project__title">Alvora</h3>
+      <p class="project__pt">Site de chalés e casas pré-fabricadas, com apresentação dos modelos, galeria de ambientes, etapas de montagem e formulário para solicitar uma proposta. Tons naturais e fotografias dos chalés dão destaque à conexão com a natureza.</p>
+      <p class="project__en en" lang="en"><span>en/</span>A website for prefabricated cabins and homes, featuring models, an interior gallery, assembly stages and a proposal request form. Natural tones and cabin photography highlight the connection with nature.</p>
+      <ul class="chips" aria-label="Destaques"><li>Site institucional</li><li>Catálogo de modelos</li></ul>
+    </div>
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">Alvora</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: Alvora">
+          <img src="midia/sites/alvora.webp" alt="Site completo da Alvora, chalés e casas pré-fabricadas" width="1280" height="10335" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>Alvora</b> — chalés e casas pré-fabricadas</p>
+    </div>
+  </article>
+
+  <article class="project">
+    <div>
+      <span class="project__meta">Low ticket · Infoprodutos</span>
+      <h3 class="project__title">Páginas de Venda</h3>
+      <p class="project__pt">Landing pages para infoprodutos, no Brasil e fora dele: headline direta, mockup do produto, oferta por tempo limitado e chamada para ação repetida ao longo da página.</p>
+    </div>
+    <p class="project__en en" lang="en"><span>en/</span>Landing pages for digital products, in Brazil and abroad: a direct headline, product mockup, limited-time offer and a call to action repeated throughout the page.</p>
+  </article>
+  <div class="sites">
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">Missão IA</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: Missão IA">
+          <img src="midia/sites/missao-ia.webp" alt="Página de vendas completa do Missão IA" width="1280" height="5811" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>Missão IA</b> — 12 aulas-jogo para ensinar IA em sala de aula</p>
+    </div>
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">300 Basketball Drills</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: 300 Basketball Drills">
+          <img src="midia/sites/basketball-drills.webp" alt="Página de vendas completa do 300 Basketball Drills" width="1280" height="5479" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>300 Basketball Drills</b> — página em inglês para treinadores de basquete</p>
+    </div>
+  </div>
+
+  <article class="project project--side">
+    <div>
+      <span class="project__meta">SaaS · Finanças</span>
+      <h3 class="project__title">Sua Conta Certa</h3>
+      <p class="project__pt">Landing page de um sistema de finanças pessoais com assistente de IA: apresentação do produto, funcionalidades, planos e perguntas frequentes, com o painel do app em destaque.</p>
+      <p class="project__en en" lang="en"><span>en/</span>Landing page for a personal finance app with an AI assistant: product overview, features, pricing and FAQ, with the app dashboard front and center.</p>
+      <ul class="chips" aria-label="Tipo de projeto"><li>Landing page</li><li>SaaS</li><li>Responsivo</li></ul>
+    </div>
+    <div>
+      <figure class="browser">
+        <div class="browser__bar" aria-hidden="true"><i></i><i></i><i></i><span class="browser__url">Sua Conta Certa</span></div>
+        <button class="shot" type="button" data-zoom aria-label="Ver a página inteira: Sua Conta Certa">
+          <img src="midia/sites/sua-conta-certa.webp" alt="Landing page completa do Sua Conta Certa" width="1280" height="4522" loading="lazy" decoding="async">
+          <span class="shot__hint" aria-hidden="true"><span class="m">passe o mouse · clique para ampliar</span><span class="t">toque para ver inteiro</span></span>
+        </button>
+      </figure>
+      <p class="cap"><b>Sua Conta Certa</b> — finanças pessoais com IA</p>
+    </div>
+  </article>
+</section>
+
+</main>
+
+<!-- ================= CONTATO ================= -->
+<footer class="finale" id="contato">
+  <div class="finale__lip" aria-hidden="true"></div>
+  <div class="wrap">
+    <h2 class="sr">Contato</h2>
+    <div class="call">
+      <div class="call__card">
+        <p class="call__name"><span class="nm js-name"><b>Dav</b><i>id</i> <strong>Cristian</strong></span></p>
+        <div class="tile" data-src="midia/foto-contato.jpg" data-alt="Foto de David Cristian">
+          <div class="ph"><svg viewBox="0 0 200 170" aria-hidden="true"><use href="#i-person"/></svg><span class="ph__cap">sua foto aqui</span></div>
+        </div>
+        <div class="call__actions">
+          <a href="#topo">Decline</a>
+          <a data-link="whatsapp" href="#">Accept</a>
+        </div>
+      </div>
+      <div class="note">
+        <div class="note__status" aria-hidden="true">
+          <span>4:45</span>
+          <svg viewBox="0 0 40 10"><g fill="#141211"><rect x="0" y="6" width="2" height="4" rx=".5"/><rect x="3" y="4" width="2" height="6" rx=".5"/><rect x="6" y="2" width="2" height="8" rx=".5"/><rect x="9" y="0" width="2" height="10" rx=".5"/></g><rect x="20" y=".5" width="16" height="9" rx="2.5" fill="none" stroke="#141211"/><rect x="21.5" y="2" width="11" height="6" rx="1.3" fill="#141211"/><rect x="37" y="3.5" width="1.5" height="3" rx=".6" fill="#141211"/></svg>
+        </div>
+        <div class="note__nav" aria-hidden="true"><span>‹ iCloud</span><span>Done</span></div>
+        <p class="note__txt">Quer ver mais do meu trabalho? <a data-link="behance" href="#"><b>Acesse o Behance da Agência Wave ;)</b></a></p>
+      </div>
+    </div>
+
+    <ul class="cbar">
+      <li><a data-link="whatsapp" href="#"><span class="ic"><svg><use href="#i-phone"/></svg></span><span data-c="phone">(31) 97145-6495</span></a></li>
+      <li><a data-link="email" href="#"><span class="ic"><svg><use href="#i-mail"/></svg></span><span data-c="email">davidcristianpr147@gmail.com</span></a></li>
+      <li><a data-link="behance" href="#"><span class="ic"><svg><use href="#i-be"/></svg></span><span data-c="behanceShort">wavemdigital</span></a></li>
+      <li><a data-link="linkedin" href="#"><span class="ic"><svg><use href="#i-in"/></svg></span><span data-c="linkedinShort">seuperfil</span></a></li>
+    </ul>
+
+    <div class="foot">
+      <span>© <span class="js-year">2026</span> <span class="js-fullname">David Cristian</span> · Agência Wave — Design, Vídeo, Sites &amp; Meta Ads</span>
+      <a href="#topo">Voltar ao topo ↑</a>
+    </div>
+  </div>
+</footer>
+
+<dialog class="lb" id="lightbox" aria-label="Imagem ampliada">
+  <button class="lb__close" type="button" aria-label="Fechar">×</button>
+  <div class="lb__body"><img alt=""></div>
+</dialog>
+
+<script>
+/* =========================================================
+   EDITE AQUI: seus dados aparecem no site inteiro
+   ========================================================= */
+const CONFIG = {
+  nome: "David",
+  sobrenome: "Cristian",
+  telefone: "(31) 97145-6495",
+  whatsapp: "5531971456495",        // só números: 55 + DDD + número
+  email: "davidcristianpr147@gmail.com",
+  behance: "wavemdigital",
+  instagram: "david_cristianpr",                    // deixe vazio para esconder do site
+  github: "davidcrp",
+  linkedin: "",
+  vimeo: "",
+};
+
+(() => {
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const C = CONFIG;
+  const digits = s => String(s || "").replace(/\D/g, "");
+
+  /* nome e contatos */
+  const first = C.nome.trim(), last = C.sobrenome.trim();
+  $$(".js-name").forEach(el => {
+    el.innerHTML = `<b>${esc(first.slice(0, 3))}</b><i>${esc(first.slice(3))}</i> <strong>${esc(last)}</strong>`;
+  });
+  $$(".js-fullname").forEach(el => (el.textContent = `${first} ${last}`));
+  $$(".js-first").forEach(el => (el.textContent = first));
+  $$(".js-year").forEach(el => (el.textContent = new Date().getFullYear()));
+
+  const href = {
+    whatsapp: `https://wa.me/${digits(C.whatsapp)}`,
+    email: `mailto:${C.email}`,
+    instagram: `https://instagram.com/${C.instagram}`,
+    behance: `https://www.behance.net/${C.behance}`,
+    linkedin: `https://linkedin.com/in/${C.linkedin}`,
+    github: `https://github.com/${C.github}`,
+    vimeo: `https://vimeo.com/${C.vimeo}`,
+  };
+  const label = {
+    github: `github.com/${C.github}`,
+    phone: C.telefone,
+    email: C.email,
+    instagram: `@${C.instagram}`,
+    behance: `behance.net/${C.behance}`,
+    behanceShort: C.behance,
+    linkedin: `linkedin.com/in/${C.linkedin}`,
+    linkedinShort: C.linkedin,
+    vimeo: `vimeo.com/${C.vimeo}`,
+  };
+  $$("[data-c]").forEach(el => { if (label[el.dataset.c]) el.textContent = label[el.dataset.c]; });
+  const filled = { whatsapp: C.whatsapp, email: C.email, instagram: C.instagram, behance: C.behance, linkedin: C.linkedin, vimeo: C.vimeo, github: C.github };
+  $$("[data-link]").forEach(el => {
+    const url = href[el.dataset.link];
+    if (!url) return;
+    if (!String(filled[el.dataset.link] || "").trim()) { (el.closest("li") || el).hidden = true; return; }
+    el.href = url;
+    if (url.startsWith("http")) { el.target = "_blank"; el.rel = "noopener"; }
+  });
+
+  /* mídias: data-src vira imagem, vídeo ou player do Vimeo/YouTube */
+  const embed = src => {
+    const v = src.match(/vimeo\.com\/(?:video\/)?(\d+)/);
+    if (v) return `https://player.vimeo.com/video/${v[1]}?dnt=1`;
+    const y = src.match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-]{11})/);
+    if (y) return `https://www.youtube-nocookie.com/embed/${y[1]}`;
+    return null;
+  };
+  $$("[data-src]").forEach(el => {
+    const src = el.dataset.src.trim();
+    if (!src) return;
+    let media;
+    const player = embed(src);
+    if (player) {
+      media = document.createElement("iframe");
+      media.src = player;
+      media.loading = "lazy";
+      media.allow = "autoplay; fullscreen; picture-in-picture";
+      media.allowFullscreen = true;
+      media.title = el.dataset.alt || "Vídeo";
+    } else if (/\.(mp4|webm|mov|m4v)(\?|$)/i.test(src)) {
+      media = document.createElement("video");
+      media.src = src;
+      media.muted = true;
+      media.loop = true;
+      media.playsInline = true;
+      media.preload = "metadata";
+      if (reduce) media.controls = true; else media.autoplay = true;
+    } else {
+      media = new Image();
+      media.src = src;
+      media.alt = el.dataset.alt || "";
+      media.loading = "lazy";
+      media.decoding = "async";
+    }
+    el.classList.add("has-media");
+    el.append(media);
+  });
+
+  /* capa: pill alterna entre as áreas */
+  const roles = [
+    ["Edição de Vídeo", "Video Editor"],
+    ["Design Gráfico", "Graphic Designer"],
+    ["Criação de Sites", "Web Developer"],
+    ["Meta Ads", "Paid Social"],
+  ];
+  const box = document.querySelector(".cover__roles");
+  const pt = box.querySelector('[data-role="pt"]'), en = box.querySelector('[data-role="en"]');
+  if (reduce) {
+    pt.textContent = "Design · Vídeo · Sites · Ads";
+    en.textContent = "Designer · Video Editor · Web · Ads";
+  } else {
+    let i = 0;
+    setInterval(() => {
+      box.classList.add("is-swapping");
+      setTimeout(() => {
+        i = (i + 1) % roles.length;
+        [pt.textContent, en.textContent] = roles[i];
+        box.classList.remove("is-swapping");
+      }, 360);
+    }, 2600);
+  }
+
+  /* trilho dos cabeçalhos acompanha a rolagem da seção */
+  const rails = $$("[data-rail]");
+  let ticking = false;
+  const update = () => {
+    ticking = false;
+    const vh = innerHeight;
+    rails.forEach(r => {
+      const b = r.closest("section").getBoundingClientRect();
+      const p = Math.min(1, Math.max(0, (vh * 0.55 - b.top) / b.height));
+      r.style.setProperty("--p", p.toFixed(3));
+    });
+  };
+  addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  update();
+
+  /* reels: tocam mudos quando aparecem na tela; clique liga o som */
+  const reels = $$(".reel");
+  const vids = reels.map(r => r.querySelector("video"));
+  const setSound = (reel, on) => {
+    const b = reel.querySelector(".reel__snd");
+    b.setAttribute("aria-pressed", on);
+    b.setAttribute("aria-label", b.getAttribute("aria-label").replace(/^(Ativar|Desativar) som/, on ? "Desativar som" : "Ativar som"));
+    b.querySelector("use").setAttribute("href", on ? "#i-snd-on" : "#i-snd-off");
+  };
+  reels.forEach((reel, i) => {
+    const v = vids[i];
+    reel.querySelector(".reel__snd").addEventListener("click", () => {
+      const on = v.muted || v.paused;
+      vids.forEach((o, j) => { if (o !== v) { o.muted = true; setSound(reels[j], false); if (reduce) o.pause(); } });
+      v.muted = !on;
+      if (on) v.play().catch(() => {});
+      else if (reduce) v.pause();
+      setSound(reel, on);
+    });
+  });
+  if (!reduce && "IntersectionObserver" in window) {
+    const io = new IntersectionObserver(entries => entries.forEach(e => {
+      const v = e.target.querySelector("video");
+      if (e.isIntersecting) { v.preload = "auto"; v.play().catch(() => {}); }
+      else v.pause();
+    }), { threshold: 0.5 });
+    reels.forEach(r => io.observe(r));
+  }
+
+  /* sites: ao passar o mouse, o print rola até o fim */
+  const shots = $$(".shot");
+  const setPan = s => {
+    const img = s.querySelector("img");
+    const w = img.naturalWidth || +img.getAttribute("width"), h = img.naturalHeight || +img.getAttribute("height");
+    const pan = Math.max(0, (s.clientWidth * h) / w - s.clientHeight);
+    s.style.setProperty("--pan", `${-pan}px`);
+    s.style.setProperty("--dur", `${Math.min(14, Math.max(3, pan / 320)).toFixed(1)}s`);
+  };
+  shots.forEach(setPan);
+  addEventListener("resize", () => shots.forEach(setPan));
+
+  /* ampliar posts e sites */
+  const lb = document.getElementById("lightbox"), lbImg = lb.querySelector("img"), lbBody = lb.querySelector(".lb__body");
+  $$("[data-zoom]").forEach(b => b.addEventListener("click", () => {
+    const img = b.querySelector("img");
+    lbImg.src = img.currentSrc || img.src;
+    lbImg.alt = img.alt;
+    lb.dataset.kind = b.classList.contains("shot") ? "site" : "post";
+    lb.showModal();
+    lbBody.scrollTop = 0;
+  }));
+  lb.querySelector(".lb__close").addEventListener("click", () => lb.close());
+  lb.addEventListener("click", e => { if (e.target === lb) lb.close(); });
+
+  /* "Traduzir para o português": esconde a coluna em inglês */
+  const buttons = $$("[data-translate]");
+  const setPt = on => {
+    document.body.classList.toggle("pt-only", on);
+    buttons.forEach(b => {
+      b.setAttribute("aria-pressed", on);
+      b.querySelector("span").textContent = on ? "Mostrar também em inglês" : "Traduzir para o português";
+    });
+  };
+  buttons.forEach(b => b.addEventListener("click", () => setPt(!document.body.classList.contains("pt-only"))));
+})();
+</script>
+</body>
+</html>
